@@ -1,0 +1,38 @@
+body {
+	padding: 16px;	
+}
+h1 {
+	text-align: center;
+	text-shadow: 2px 2px 4px rgba(40,40,40,1);	
+}
+
+p {
+	text-indent: 2em;
+}
+
+ol, ul {
+	padding-left: 12px;
+	padding-right: 12px;	
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table td, table th {
+	border: 1px solid rgba(220,220,220,1);
+	padding: 8px;
+}
+
+table tr:nth-child(even){background-color: rgba(200,200,200,1);}
+
+table tr:hover {background-color: rgba(160,160,160,1);}
+
+table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: rgba(200,255,200,1);
+	color: rgba(0,0,0,1);
+}
